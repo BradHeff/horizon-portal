@@ -2,7 +2,7 @@ import React from 'react';
 import Panels from '../../HOC/Panels';
 import {Link} from 'react-router-dom';
 
-import Styles from '../../Styles/StyleWhite';
+import Styles from '../../Styles/StyleFooter';
 
 const Base = (props) => {
   return (
@@ -25,7 +25,7 @@ const Base = (props) => {
                   <p>Access to the parents portal of Horizon christian School Canvas</p>
                   <div className='d-flex'>
                   <a href='https://horizon-sa.test.instructure.com' className='btn btn-panel mr-2'>Go To Canvas</a>
-                  <Link to='/guide' className='btn btn-panel'>Go To Guide</Link>
+                  <Link to='guide' className='btn btn-panel'>Go To Guide</Link>
                   </div>
               </Panels>
             </div>
