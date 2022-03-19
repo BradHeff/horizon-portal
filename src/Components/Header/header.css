@@ -1,5 +1,7 @@
 .header {
-    display: block;     
+    display: block; 
+    margin-bottom: 0;    
+    padding-bottom: 0;
 }
 
 .img-logo {
