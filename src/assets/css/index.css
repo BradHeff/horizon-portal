@@ -1,6 +1,11 @@
+:root {
+  --white: #fff;
+  --boxes: #282828a4;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -18,4 +23,68 @@ code {
 }
 .justify-content-center {
   justify-content: center!important;
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.bg-boxes {
+  background-color: var(--boxes);
+}
+
+.bg-footer {
+  background-color: #6e836f;
+}
+.z-index {
+  z-index: 9;
+}
+
+.overlay {
+  position: relative;
+}
+
+.overlay::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.overlay::after {
+  background-color: #085d6346;
+}
+
+.shape:not([class*="shape-blur"]) {
+  overflow: hidden;
+}
+.shape-bottom {
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.shape {
+  position: absolute;
+  pointer-events: none;
+}
+.shape:not([class*="shape-blur"]) > * {
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+.shape-fluid-x > * {
+  width: 100%;
+  height: auto;
+}
+.shape-bottom > * {
+  -webkit-transform-origin: top center;
+  transform-origin: top center;
+}
+.shape > * {
+  display: block;
+}
+svg {
+  overflow: hidden;
+  vertical-align: middle;
 }

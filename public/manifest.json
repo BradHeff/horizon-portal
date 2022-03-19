@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "HCS Canvas Portal",
+  "name": "Horizon Canvas portal",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,15 +8,15 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+        "src": "/android-chrome-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"    
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
+      "src": "/mstile-150x150.png",
+      "sizes": "150x150",
+      "type": "image/png"    
+  }
   ],
   "start_url": ".",
   "display": "standalone",

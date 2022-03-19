@@ -1,27 +1,24 @@
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background: linear-gradient(to bottom left, #282828 0%, rgb(165, 167, 56) 10%, rgb(37, 94, 35) 79%, #282828 100%);
+  /* background: linear-gradient(to bottom left, #282828 0%, rgb(165, 167, 56) 10%, rgb(37, 94, 35) 79%, #282828 100%);
   background: -webkit-linear-gradient(to bottom left, #282828 0%, rgb(165, 167, 56) 10%, rgb(37, 94, 35) 79%, #282828 100%);
   background: -moz-linear-gradient(to bottom left, #282828 0%, rgb(165, 167, 56) 10%, rgb(37, 94, 35) 79%, #282828 100%);
   background: -o-linear-gradient(to bottom left, #282828 0%, rgb(165, 167, 56) 10%, rgb(37, 94, 35) 79%, #282828 100%);
-  background: -ms-linear-gradient(to bottom left, #282828 0%, rgb(165, 167, 56) 10%, rgb(37, 94, 35) 79%, #282828 100%);
-  min-height: 100vh;
+  background: -ms-linear-gradient(to bottom left, #282828 0%, rgb(165, 167, 56) 10%, rgb(37, 94, 35) 79%, #282828 100%); */
+  background-image: url(../images/wallpaper.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: calc(100vh - 120px);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .click-box-student {
@@ -32,4 +29,70 @@
   align-items: stretch;
   justify-content: center;
   border-radius: 20px;
+  cursor: pointer;
+  border: 2px #6e836f solid;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.click-box-student:hover {
+  background-color: #282828;
+  color: var(--white);
+}
+.footer {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: var(--white);
+}
+
+.panels {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 25px 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  text-align: center;
+}
+
+.panels img {
+  max-height: 200px;
+}
+
+.panels a {
+  color: #6e836f;
+}
+
+.panels a:hover {
+  color: #6e836f;
+  text-decoration: none;
+}
+
+.btn.btn-panel {
+  border-radius: 20px;
+  border: 1px #fff solid;
+  background-color: transparent;
+  color: #fff;
+  padding: 5px 15px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn.btn-panel:hover {
+  background-color: #6e836f;
+  color: #fff;
+  border: 1px #6e836f solid;
 }
