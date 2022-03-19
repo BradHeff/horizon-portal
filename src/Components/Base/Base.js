@@ -7,7 +7,7 @@ import Styles from '../../Styles/StyleFooter';
 const Base = (props) => {
   return (
     <div className='p-relative'>     
-    <div className='App-header overlay'  style={{minHeight: 'calc(100vh - 182px)'}}>
+    <div className='App-header overlay'  style={{minHeight: 'calc(100vh - 196px)'}}>
       <div className='container grid-xl z-index'>
         <div className='columns align-items-center justify-content-center'>
           <div className='column col-md-10 col-4 col-mx-auto mb-2'>
@@ -25,7 +25,7 @@ const Base = (props) => {
                   <p>Access to the parents portal of Horizon christian School Canvas</p>
                   <div className='d-flex'>
                   <a href='https://horizon-sa.test.instructure.com' className='btn btn-panel mr-2'>Go To Canvas</a>
-                  <Link to='guide' className='btn btn-panel'>Go To Guide</Link>
+                  <Link to='parent-account-guide' className='btn btn-panel'>Go To Guide</Link>
                   </div>
               </Panels>
             </div>

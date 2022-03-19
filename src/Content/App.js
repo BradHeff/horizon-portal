@@ -16,7 +16,7 @@ class App extends Component {
               <Base/>
             </Layout>
          }/>
-         <Route path="guide" element={<Layout><Guide/></Layout>}/>
+         <Route path="parent-account-guide" element={<Layout><Guide/></Layout>}/>
         </Routes>
        
      );
