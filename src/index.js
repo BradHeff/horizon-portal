@@ -7,6 +7,7 @@ import 'spectre.css/dist/spectre-icons.css';
 import 'normalize.css/normalize.css';
 import './assets/css/index.css';
 import './assets/css/App.css';
+import './assets/css/guide.css';
 import App from './Content/App';
 import reportWebVitals from './reportWebVitals';
 

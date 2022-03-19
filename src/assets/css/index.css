@@ -17,6 +17,9 @@ code {
     monospace;
 }
 
+h1 {
+  font-weight: 700;
+}
 .align-items-center {
   align-items: center!important;
   
@@ -28,6 +31,9 @@ code {
 .bg-white {
   background-color: var(--white);
 }
+.bg-light {
+  background-color: #ebebeb;
+}
 
 .bg-boxes {
   background-color: var(--boxes);
@@ -38,6 +44,18 @@ code {
 }
 .z-index {
   z-index: 9;
+}
+
+.section {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section-xl {
+  position: relative;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .overlay {

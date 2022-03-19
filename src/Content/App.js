@@ -3,6 +3,7 @@ import Layout from '../HOC/Layout';
 import Base from '../Components/Base/Base';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
+import Guide from './Guide';
 class App extends Component {
   
   render() {
@@ -15,7 +16,7 @@ class App extends Component {
               <Base/>
             </Layout>
          }/>
-         <Route path="guide" element={<Layout></Layout>}/>
+         <Route path="guide" element={<Layout><Guide/></Layout>}/>
         </Routes>
         </BrowserRouter>
      );
