@@ -9,7 +9,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: calc(100vh - 120px);
+  /* min-height: calc(100vh - 60px); */
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -95,4 +96,8 @@
   background-color: #6e836f;
   color: #fff;
   border: 1px #6e836f solid;
+}
+
+.footer .btn.btn-link {
+  font-size: 16px;
 }
