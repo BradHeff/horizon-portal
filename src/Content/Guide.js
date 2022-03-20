@@ -9,7 +9,7 @@ const Guide = (props) => {
   return (
         <div className="p-relative intro" style={{paddingTop: '80px'}}>
             <div className='container grid-xl'>
-            <div className='text-center title d-flex justify-content-center'>
+            <div className='text-center title d-flex justify-content-center' data-aos="flip-up">
                 <h1><img src={Header} alt={Header} className='img-responsive'/></h1>
             </div>
             </div>

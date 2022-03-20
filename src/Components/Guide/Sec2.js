@@ -6,11 +6,11 @@ const Step2 = (props) => {
   return (
         <Sections trans={true} color="dark" bg='bg-light'>
            <div className='column col-md-12 col-4 col-mx-auto'>
-              <div className='img-border border-image'>
+              <div className='img-border border-image' data-aos="fade-down">
                 <img src={step2} alt={step2} className='img-responsive'/>
               </div>
            </div>
-           <div className='column col-md-12 col-6'>
+           <div className='column col-md-12 col-6' data-aos="fade-right" data-aos-delay="200">
              <h1>Signup <span>Account</span><br />Form</h1>
              <p>Fill in the form pictured with your information</p>
              <p>The Student pairing Code can be found on your children's account for this process. This will link your
