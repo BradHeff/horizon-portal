@@ -8,8 +8,7 @@ class App extends Component {
   componentDidMount() {
     AOS.init({
       duration: 900,
-      easing: 'ease-in-out-back',
-      disable: 'mobile'
+      easing: 'ease-in-out-back'
     });
   }
   render() {
