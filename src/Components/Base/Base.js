@@ -24,7 +24,7 @@ const Base = (props) => {
               <Panels title="Canvas Parent" choice="Parents" delay="300">
                   <p>Access to the parents portal of Horizon christian School Canvas</p>
                   <div className='d-flex'>
-                  <a href='https://horizon-sa.test.instructure.com' className='btn btn-panel mr-2'>Go To Canvas</a>
+                  <a href='https://horizon-sa.instructure.com/login/canvas' className='btn btn-panel mr-2'>Go To Canvas</a>
                   <Link to='parent-account-guide' className='btn btn-panel'>Go To Guide</Link>
                   </div>
               </Panels>
