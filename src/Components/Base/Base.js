@@ -7,8 +7,8 @@ import Styles from '../../Styles/StyleFooter';
 const Base = (props) => {
   return (
     <div className='p-relative'>     
-    <div className='App-header overlay'  style={{minHeight: 'calc(100vh - 196px)'}}>
-      <span className='support'><a href='#0'>Support</a></span>
+    <div className='App-header overlay'  style={{minHeight: 'calc(100vh - 197px)'}}>
+      <span className='support'><a href='mailto:djohnson@horizon.sa.edu.au?cc=bheffernan@horizon.sa.edu.au&subject=Horizon Canvas Choice Page Problem'>Contact Support</a></span>
       <div className='container grid-xl z-index'>
         <div className='columns align-items-center justify-content-center'>
           <div className='column col-md-10 col-4 col-mx-auto mb-2'>
