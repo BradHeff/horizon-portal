@@ -4,6 +4,7 @@ import Sec2 from '../Components/Guide/Sec2';
 import Sec3 from '../Components/Guide/Sec3';
 
 import Header from '../assets/images/horizon header.png';
+import reHeader from '../assets/images/retieve header.png';
 
 class Guide extends React.Component {
     componentDidMount() {
@@ -21,8 +22,8 @@ class Guide extends React.Component {
                 <Sec2/>
                 
                     <div className='container grid-xl'>
-                        <div className='text-center title'>
-                            <h1>Retrieving Pairing Code</h1>
+                        <div className='text-center title d-flex justify-content-center' data-aos="flip-up">
+                        <h1><img src={reHeader} alt={reHeader} className='img-responsive'/></h1>
                         </div>
                     </div>
                 
