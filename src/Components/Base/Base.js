@@ -3,6 +3,7 @@ import Panels from '../../HOC/Panels';
 import {Link} from 'react-router-dom';
 
 import Styles from '../../Styles/StyleFooter';
+import release from '../../assets/images/releasedate.png';
 
 const Base = (props) => {
   return (
@@ -10,7 +11,9 @@ const Base = (props) => {
     <div className='App-header overlay'  style={{minHeight: 'calc(100vh - 197px)'}}>
       <span className='support'><a href='mailto:djohnson@horizon.sa.edu.au?cc=bheffernan@horizon.sa.edu.au&subject=Horizon Canvas Choice Page Problem'>Contact Support</a></span>
       <div className='container grid-xl z-index'>
+      <img src={release} alt={release} className='img-responsive' style={{marginLeft: 'auto', marginRight: 'auto'}}/>
         <div className='columns align-items-center justify-content-center'>
+          
           <div className='column col-md-10 col-4 col-mx-auto mb-2'>
             <div className='click-box-student'>
                 <Panels title="Canvas Student" choice="KIDS" delay="0">
