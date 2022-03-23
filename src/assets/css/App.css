@@ -121,3 +121,43 @@
 .footer .btn.btn-link {
   font-size: 16px;
 }
+
+
+
+.ribbon {
+  background: #4b9ae5;
+  display: inline-block;
+  color: #f4f4f4;
+  padding: 0.5em 0.7em;
+  font-weight: 900;
+  letter-spacing: 0.2em;
+  position: relative;
+  font-size: 1.0em;
+  text-transform: uppercase;
+  transform-style: preserve-3d;
+  width: 100%;
+  text-align: center;
+  transform: rotate(-10deg) skew(-20deg, 10deg);
+}
+.ribbon:before, .ribbon:after {
+  content: "";
+  width: 0;
+  height: 2em;
+  display: block;
+  background: #4993da;
+  position: absolute;
+  border-style: solid;
+  border-width: 0.5em;
+  z-index: -1;
+  transform: translateZ(-1em);
+}
+.ribbon:before {
+  left: -0.5em;
+  top: 0.5em;
+  border-color: #358de2 #1d74c7 #358de2 #358de2;
+}
+.ribbon:after {
+  right: -0.5em;
+  top: -0.5em;
+  border-color: #358de2 #358de2 #358de2 #1d74c7;
+}
