@@ -20,7 +20,8 @@ const Base = (props) => {
             <div className='click-box-student'>
                 <Panels title="Canvas Student" choice="KIDS" delay="0">
                     <p>Access to the students portal of the Horizon Christian School Canvas</p>
-                    <a href='https://horizon-sa.instructure.com' className='btn btn-panel'>Go To Canvas</a>
+                    {/* <a href='https://horizon-sa.instructure.com' className='btn btn-panel'>Go To Canvas</a> */}
+                    <a href='#0' className='btn btn-panel'>Go To Canvas</a>
                 </Panels>
             </div>
               
@@ -30,8 +31,10 @@ const Base = (props) => {
               <Panels title="Canvas Parent" choice="Parents" delay="300">
                   <p>Access to the parents portal of Horizon christian School Canvas</p>
                   <div className='d-flex'>
-                  <a href='https://horizon-sa.instructure.com/login/canvas' className='btn btn-panel mr-2'>Go To Canvas</a>
-                  <Link to='parent-account-guide' className='btn btn-panel'>Go To Guide</Link>
+                  {/* <a href='https://horizon-sa.instructure.com/login/canvas' className='btn btn-panel mr-2'>Go To Canvas</a> */}
+                  <a href='#0' className='btn btn-panel mr-2'>Go To Canvas</a>
+                  <a href='#0' className='btn btn-panel mr-2'>Go To Guide</a>
+                  {/* <Link to='parent-account-guide' className='btn btn-panel'>Go To Guide</Link> */}
                   </div>
               </Panels>
             </div>
