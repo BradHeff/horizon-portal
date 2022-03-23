@@ -1,3 +1,15 @@
+.home {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.home a {
+  color: #282828;
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
 .card {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;

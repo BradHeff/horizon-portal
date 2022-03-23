@@ -1,4 +1,6 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
+
 import Sec1 from '../Components/Guide/Sec1';
 import Sec2 from '../Components/Guide/Sec2';
 import Sec3 from '../Components/Guide/Sec3';
@@ -13,7 +15,9 @@ class Guide extends React.Component {
     render(){
         return (
                 <div className="p-relative intro" style={{paddingTop: '80px'}}>
+                    <span className='home'><Link to="/">{'<- Home'}</Link></span>
                     <div className='container grid-xl'>
+
                     <div className='text-center title d-flex justify-content-center' data-aos="flip-up">
                         <h1><img src={Header} alt={Header} className='img-responsive'/></h1>
                     </div>
