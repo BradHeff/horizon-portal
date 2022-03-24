@@ -18,7 +18,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
   position: relative;
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 30px;
 }
 
@@ -45,13 +45,22 @@
 }
 .support {
   position: absolute;
-  top: 0;
+  top: 20px;
   right: 50px;
   z-index: 9;
 }
+.mt-mb-3 {
+  margin-top: 30px;
+}
+
 @media screen and (max-width:900px) {
   .support {
+    top: 55px;
     right: 10px;
+    z-index: 1000;
+  }
+  .mt-mb-3 {
+    margin-top: 50px!important;
   }
 }
 .support a {
