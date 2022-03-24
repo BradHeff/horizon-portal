@@ -1,6 +1,6 @@
 import React from 'react';
 import Panels from '../../HOC/Panels';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 
 import Styles from '../../Styles/StyleFooter';
 // import release from '../../assets/images/releasedate.png';
@@ -29,7 +29,7 @@ const Base = (props) => {
           <div className='column col-md-10 col-4 col-mx-auto'>
           <div className='click-box-student'>
               <Panels title="Canvas Parent" choice="Parents" delay="300">
-                  <p>Access to the parents portal of Horizon christian School Canvas</p>
+                  <p>Access to Canvas Parent for Horizon Christian School Parents and Caregivers.</p>
                   <div className='d-flex'>
                   {/* <a href='https://horizon-sa.instructure.com/login/canvas' className='btn btn-panel mr-2'>Go To Canvas</a> */}
                   <a href='#0' className='btn btn-panel mr-2'>Go To Canvas</a>
