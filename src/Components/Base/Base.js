@@ -10,7 +10,7 @@ const Base = (props) => {
     <div className='p-relative'>     
     <div className='App-header overlay'  style={{minHeight: 'calc(100vh - 197px)'}}>
       <span className='support'><a className='btn btn-panel' href='mailto:djohnson@horizon.sa.edu.au?cc=bheffernan@horizon.sa.edu.au&subject=Horizon Canvas Choice Page Problem'>Contact Support</a></span>
-      <div className='container grid-xl z-index'>
+      <div className='container grid-xl z-index text-center' style={{overflow: 'hidden'}}>
       <div className='ribbon z-index'>Released Wed 30th March</div>
 
       {/* <img src={release} alt={release} className='img-responsive' style={{marginLeft: 'auto', marginRight: 'auto'}}/> */}

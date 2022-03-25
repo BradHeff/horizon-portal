@@ -60,7 +60,7 @@
     z-index: 1000;
   }
   .mt-mb-3 {
-    margin-top: 50px!important;
+    margin-top: 60px!important;
   }
 }
 .support a {
@@ -134,7 +134,7 @@
 
 
 .ribbon {
-  background: #4b9ae5;
+  background: #6e836f;
   display: inline-block;
   color: #f4f4f4;
   padding: 0.5em 0.7em;
@@ -144,7 +144,7 @@
   font-size: 1.0em;
   text-transform: uppercase;
   transform-style: preserve-3d;
-  width: 100%;
+  width: 90%;
   text-align: center;
   transform: rotate(-10deg) skew(-20deg, 10deg);
 }
@@ -153,7 +153,7 @@
   width: 0;
   height: 2em;
   display: block;
-  background: #4993da;
+  background: #6e836f;
   position: absolute;
   border-style: solid;
   border-width: 0.5em;
@@ -163,10 +163,16 @@
 .ribbon:before {
   left: -0.5em;
   top: 0.5em;
-  border-color: #358de2 #1d74c7 #358de2 #358de2;
+  border-color: #5c6b5d #475348 #5c6b5d #5c6b5d;
 }
 .ribbon:after {
   right: -0.5em;
   top: -0.5em;
-  border-color: #358de2 #358de2 #358de2 #1d74c7;
+  border-color: #5c6b5d #5c6b5d #5c6b5d #475348;
+}
+
+@media screen and (max-width: 900px){
+  .ribbon {
+    font-size: 0.8em;
+  }
 }
