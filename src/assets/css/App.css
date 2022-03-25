@@ -55,7 +55,7 @@
 
 @media screen and (max-width:900px) {
   .support {
-    top: 55px;
+    top: 60px;
     right: 10px;
     z-index: 1000;
   }
