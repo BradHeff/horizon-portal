@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Layout from '../HOC/Layout';
 import Base from '../Components/Base/Base';
+import FourOHFour from '../Content/404';
 import { Routes, Route} from 'react-router-dom';
 import AOS from 'aos';
 import Guide from './Guide';
@@ -22,6 +23,7 @@ class App extends Component {
             </Layout>
          }/>
          <Route path="parent-account-guide" element={<Layout><Guide/></Layout>}/>
+         <Route path="*" element={<Layout><FourOHFour/></Layout>}/>
         </Routes>
        
      );

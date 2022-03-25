@@ -83,6 +83,23 @@ h1 {
   background-color: #085d6346;
 }
 
+.overlay-404 {
+  position: relative;
+}
+
+.overlay-404::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.overlay-404::after {
+  background-color: #86868646;
+}
+
 .shape:not([class*="shape-blur"]) {
   overflow: hidden;
 }
