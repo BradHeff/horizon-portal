@@ -129,20 +129,12 @@
   border: 1px #6e836f solid;
 }
 
-<<<<<<< HEAD
 
 .btn.btn-home {
   border-radius: 20px;
   border: 1px #6e836f solid;
   background-color: transparent;
   color: #6e836f;
-=======
-.btn.btn-panel-back {
-  border-radius: 20px;
-  border: 1px #282828 solid;
-  background-color: transparent;
-  color: #282828;
->>>>>>> c3bc4f2e94ecd1ffb42b30c369d55834c6e9c463
   padding: 5px 15px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -151,17 +143,10 @@
   transition: all 0.3s ease-in-out;
 }
 
-<<<<<<< HEAD
 .btn.btn-home:hover {
   background-color: #556957;
   color: #fff;
   border: 1px #556957 solid;
-=======
-.btn.btn-panel-back:hover {
-  background-color: #6e836f;
-  color: #fff;
-  border: 1px #6e836f solid;
->>>>>>> c3bc4f2e94ecd1ffb42b30c369d55834c6e9c463
 }
 
 .footer .btn.btn-link {
