@@ -44,9 +44,11 @@
   color: var(--white);
 }
 .support {
-  position: absolute;
+  /* position: absolute;
   top: 20px;
-  right: 50px;
+  right: 50px; */
+  padding-bottom: 5px;
+  padding-left: 5px;
   z-index: 9;
 }
 .mt-mb-3 {
@@ -55,8 +57,8 @@
 
 @media screen and (max-width:900px) {
   .support {
-    top: 60px;
-    right: 10px;
+    /* top: 60px;
+    right: 10px; */
     z-index: 1000;
   }
   .mt-mb-3 {
@@ -125,6 +127,26 @@
   background-color: #6e836f;
   color: #fff;
   border: 1px #6e836f solid;
+}
+
+
+.btn.btn-home {
+  border-radius: 20px;
+  border: 1px #6e836f solid;
+  background-color: transparent;
+  color: #6e836f;
+  padding: 5px 15px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn.btn-home:hover {
+  background-color: #556957;
+  color: #fff;
+  border: 1px #556957 solid;
 }
 
 .footer .btn.btn-link {

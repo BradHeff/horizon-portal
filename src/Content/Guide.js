@@ -15,11 +15,11 @@ class Guide extends React.Component {
     render(){
         return (
                 <div className="p-relative intro" style={{paddingTop: '80px'}}>
-                    <span className='home'><Link to="/">{'<- Home'}</Link></span>
+                    <span className='home'><Link to="/" className='btn btn-home'>{'<- Home'}</Link></span>
                     <div className='container grid-xl'>
 
                     <div className='text-center title d-flex justify-content-center' data-aos="flip-up">
-                        <h1><img src={Header} alt={Header} className='img-responsive'/></h1>
+                        <h1><img src={Header} alt={Header} className='img-sec'/></h1>
                     </div>
                     </div>
                 <Sec1/>
@@ -27,7 +27,7 @@ class Guide extends React.Component {
                 
                     <div className='container grid-xl'>
                         <div className='text-center title d-flex justify-content-center' data-aos="flip-up">
-                        <h1><img src={reHeader} alt={reHeader} className='img-responsive'/></h1>
+                        <h1><img src={reHeader} alt={reHeader} className='img-sec'/></h1>
                         </div>
                     </div>
                 
