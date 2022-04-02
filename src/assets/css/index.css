@@ -25,6 +25,12 @@ h1 {
   height: 100%!important;
 }
 
+.mr-auto {
+  margin-right: auto;
+}
+.ml-auto {
+  margin-left: auto;
+}
 .align-items-stretch {
   align-items: stretch!important;
 }

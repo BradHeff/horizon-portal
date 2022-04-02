@@ -6,6 +6,7 @@ const Layout = (props) => {
   return (
         <div className='p-relative'>
             <Header detectMob={props.detectMob}/>
+            
            {props.children}
            
            <Footer />

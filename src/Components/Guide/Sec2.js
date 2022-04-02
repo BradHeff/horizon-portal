@@ -10,7 +10,7 @@ const Step2 = (props) => {
                 <img src={step2} alt={step2} className='img-responsive'/>
               </div>
            </div>
-           <div className='column col-md-12 col-6' data-aos="fade-right" data-aos-delay="200">
+           <div className='column col-md-12 col-6 sec2' data-aos="fade-right" data-aos-delay="200">
              <h1>Signup <span>Account</span><br />Form</h1>
              <p>Fill in the form pictured with your information</p>
              <p>The Student pairing Code can be found on your children's account for this process. This will link your
