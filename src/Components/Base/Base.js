@@ -21,7 +21,7 @@ const Base = (props) => {
             <div className='click-box-student'>
                 <Panels title="Canvas Student/Teacher" choice="KIDS" delay="0">
                     <p>Access to Canvas for Horizon Christian School Students</p>
-                    <a href='https://horizon-sa.instructure.com' className='btn btn-panel'>Go To Canvas</a>
+                    <a href='https://horizon-sa.instructure.com/login/saml' className='btn btn-panel'>Go To Canvas</a>
                     {/* <a href='#0' className='btn btn-panel'>Go To Canvas</a> */}
                 </Panels>
             </div>
