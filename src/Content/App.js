@@ -4,7 +4,9 @@ import Base from '../Components/Base/Base';
 import FourOHFour from '../Content/404';
 import { Routes, Route} from 'react-router-dom';
 import AOS from 'aos';
-import Guide from './Guide';
+import Guide from './Full-Guide';
+import ParentGuides from './Parent-guides';
+
 class App extends Component {
   componentDidMount() {
     AOS.init({
@@ -23,6 +25,7 @@ class App extends Component {
             </Layout>
          }/>
          <Route path="parent-account-guide" element={<Layout><Guide/></Layout>}/>
+         <Route path="parent-guides" element={<Layout><ParentGuides/></Layout>}/>
          <Route path="*" element={<Layout><FourOHFour/></Layout>}/>
         </Routes>
        

@@ -105,6 +105,17 @@ h1 > span {
     max-height: 120px;
   }
   
+  .sec2 a {
+    outline: none;
+    text-decoration: none;
+    box-shadow: none;
+  }
+
+  .sec2 .title {
+    font-size: 34px;
+    margin-bottom: 45px;
+  }
+
   @media screen and (max-width: 992px) {
     .img-sec {
       height: auto;

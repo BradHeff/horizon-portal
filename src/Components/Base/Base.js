@@ -1,8 +1,8 @@
 import React from 'react';
 import Panels from '../../HOC/Panels';
-// import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
-import PDF from '../../assets/PDF/How to Access Canvas Parent App and Online (Parent Guide).pdf';
+// import PDF from '../../assets/PDF/How to Access Canvas Parent App and Online (Parent Guide).pdf';
 
 import Styles from '../../Styles/StyleFooter';
 // import release from '../../assets/images/releasedate.png';
@@ -33,9 +33,8 @@ const Base = (props) => {
                   <p>Access to Canvas Parent for Horizon Christian School Parents and Caregivers.</p>
                   <div className='d-flex'>
                   <a href='https://horizon-sa.instructure.com/login/canvas' className='btn btn-panel mr-2'>Go To Canvas</a>
-                  {/* <a href='#0' className='btn btn-panel mr-2'>Go To Canvas</a> */}
-                  <a href={PDF} download={false} target="_blank" rel="noreferrer" className='btn btn-panel mr-2'>View Guide</a>
-                  {/* <Link to='parent-account-guide' className='btn btn-panel'>Go To Guide</Link> */}
+                  {/* <a href={PDF} download={false} target="_blank" rel="noreferrer" className='btn btn-panel mr-2'>View Guide</a> */}
+                  <Link to='parent-guides' className='btn btn-panel'>View Guides</Link>
                   </div>
               </Panels>
             </div>
