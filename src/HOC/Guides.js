@@ -8,7 +8,7 @@ const Guides = (props) => {
     <div className='container grid-xl'>
         <div className='columns d-flex align-items-center justify-content-center'>
             <div className="column col-12 text-center sec2">
-                <a href={props.link}><h1 className='title'>{props.title} <span>{props.titleColor}</span> {props.title2}</h1></a>
+                <a href={props.link}><h1>{props.title} <span>{props.titleColor}</span> {props.title2}</h1></a>
             </div>
             <div className='column col-md-12 col-6 text-right'>
             

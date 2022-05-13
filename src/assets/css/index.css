@@ -61,6 +61,12 @@ h1 {
   z-index: 9;
 }
 
+.section:nth-child(3) {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 80px;
+}
+
 .section {
   position: relative;
   padding-top: 80px;
