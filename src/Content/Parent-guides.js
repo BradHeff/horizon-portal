@@ -31,7 +31,19 @@ render() {
                   {/*ROW 3*/}                  
                   <Guides trans={true} color="footer" bg="bg-white" title="How To" titleColor="Access" title2="The App" image={diagram} link="#0">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                </Guides>
+                  </Guides>
+                  {/*ROW 4*/}                  
+                  <Guides trans={true} color="footer" bg="bg-white" title="How To" titleColor="Access" title2="The App" image={diagram} link="#0">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  </Guides>
+                  {/*ROW 5*/}                  
+                  <Guides trans={true} color="footer" bg="bg-white" title="How To" titleColor="Access" title2="The App" image={diagram} link="#0">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  </Guides>
+                  {/*ROW 6*/}                  
+                  <Guides trans={true} color="footer" bg="bg-white" title="How To" titleColor="Access" title2="The App" image={diagram} link="#0">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  </Guides>
               </div>
         </div>
   );
