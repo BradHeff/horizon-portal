@@ -10,11 +10,11 @@ const Guides = (props) => {
             <div className="column col-12 text-center sec2">
                 <a href={props.link}><h1>{props.title} <span>{props.titleColor}</span> {props.title2}</h1></a>
             </div>
-            <div className='column col-md-12 col-6 text-right'>
+            <div className='column col-md-12 col-6 text-center'>
             
                 <p>{props.children}</p>
             </div>
-            <div className='column col-md-12 col-2'>
+            <div className='column col-sm-8 col-md-6 col-2'>
                 <div className='img-border-invert border-image'>
                     <a href={props.link}>
                         <img src={props.image} alt={props.image} className='img-responsive'/>
