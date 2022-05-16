@@ -31,7 +31,7 @@ render() {
            <div className="p-relative intro" style={{paddingTop: '80px'}}>
               <span className='home'><Link to="/" className='btn btn-home'>{'Home'}</Link></span>
               <div className='container grid-xl'>
-                <div className='text-center title d-flex justify-content-center'>
+                <div className='text-center d-flex justify-content-center'>
                     <h1><img src={Header} alt={Header} className='img-sec'/></h1> 
                 </div>
               </div>
@@ -49,11 +49,11 @@ render() {
                     Access the Horizon Parent Portal to find a growing number of school related links, guides and apps.
                   </Guides>
                   {/*ROW 4*/}                  
-                  <Guides trans={true} color="dark" bg="bg-light" title="How To" titleColor="Add a Second Child" title2=" to Canvas Parent The App" image={I3} link={HASC}>
+                  <Guides trans={true} color="dark" bg="bg-light" title="How To" titleColor="Add a Second Child" title2=" to Canvas Parent The App" image={I4} link={HASC}>
                     Learn how to add all your children to the Canvas Parent App to follow their progress.
                   </Guides>
                   {/*ROW 5*/}                  
-                  <Guides trans={true} color="light" bg="bg-white" title="How To" titleColor="Use Canvas Parent" title2="The App" image={I4} link={HUCP}>
+                  <Guides trans={true} color="light" bg="bg-white" title="How To" titleColor="Use Canvas Parent" title2="The App" image={I3} link={HUCP}>
                     The Basic How to Guide for the Canvas Parent App.
                   </Guides>
                   {/*ROW 6*/}                  
