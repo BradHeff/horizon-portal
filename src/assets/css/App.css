@@ -32,7 +32,7 @@
   /* border-radius: 20px; */
   cursor: pointer;
   /* border: 2px #6e836f solid; */
-  border: 2px var(--white) solid;
+  /* border: 2px var(--white) solid; */
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
