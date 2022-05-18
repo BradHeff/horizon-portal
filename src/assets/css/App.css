@@ -26,12 +26,13 @@
   width: 100%;
   height: 100%;
   display: flex;
-  background-color: #282828a4;
+  /* background-color: #282828a4; */
   align-items: stretch;
   justify-content: center;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   cursor: pointer;
-  border: 2px #6e836f solid;
+  /* border: 2px #6e836f solid; */
+  border: 2px var(--white) solid;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -40,7 +41,7 @@
 }
 
 .click-box-student:hover {
-  background-color: #282828;
+  /* background-color: #282828; */
   color: var(--white);
 }
 .support {

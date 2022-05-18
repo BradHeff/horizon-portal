@@ -1,7 +1,7 @@
 import React from 'react';
 
-import parent from '../assets/images/parent.png';
-import student from '../assets/images/student.png';
+import parent from '../assets/images/prnt.png';
+import student from '../assets/images/stdnt.png';
 
 const Panels = (props) => {
   return (
