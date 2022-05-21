@@ -6,7 +6,7 @@ const Header = (props) => {
   
   return (
         <div className='header bg-footer'>
-          <div>
+          <div>            
             {window.innerWidth <= 680?<img src={headSmall} alt={headSmall} className='img-responsive' /> :<img src={head} alt={head} className='img-responsive' /> }
             </div>
             <div className='support'>
