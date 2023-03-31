@@ -1,15 +1,18 @@
+.background {
+  background-image: url("../images/Horizon Wallpaper_portal Login.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .App-header {
   /* background: linear-gradient(to bottom left, #282828 0%, rgb(165, 167, 56) 10%, rgb(37, 94, 35) 79%, #282828 100%);
   background: -webkit-linear-gradient(to bottom left, #282828 0%, rgb(165, 167, 56) 10%, rgb(37, 94, 35) 79%, #282828 100%);
   background: -moz-linear-gradient(to bottom left, #282828 0%, rgb(165, 167, 56) 10%, rgb(37, 94, 35) 79%, #282828 100%);
   background: -o-linear-gradient(to bottom left, #282828 0%, rgb(165, 167, 56) 10%, rgb(37, 94, 35) 79%, #282828 100%);
   background: -ms-linear-gradient(to bottom left, #282828 0%, rgb(165, 167, 56) 10%, rgb(37, 94, 35) 79%, #282828 100%); */
-  background-image: url("../images/Horizon Wallpaper_portal Login.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  /* min-height: calc(100vh - 60px); */
+  min-height: calc(100vh - 111px);
   /* height: 100%; */
   display: flex;
   flex-direction: column;
@@ -44,11 +47,19 @@
   /* background-color: #282828; */
   color: var(--white);
 }
+
 .support {
   display: flex;
-  padding: 0 5px 5px;
+  padding: 30px 5px 5px;
   z-index: 9;
 }
+
+@media screen and (max-width: 900px) {
+  .support {
+    padding-top: 80px;
+  }
+}
+
 .mt-mb-3 {
   margin-top: 30px;
 }
@@ -59,10 +70,12 @@
     right: 10px; */
     z-index: 1000;
   }
+
   .mt-mb-3 {
-    margin-top: 60px!important;
+    margin-top: 60px !important;
   }
 }
+
 .support a {
   color: var(--white);
   font-size: 14px;
@@ -71,8 +84,9 @@
   outline: none;
   box-shadow: none;
 }
+
 .footer {
-  height: 60px;
+  height: 20px;
   width: 100%;
   display: flex;
   padding: 20px 0;
@@ -81,6 +95,12 @@
   justify-content: center;
   position: relative;
   color: var(--white);
+}
+
+@media screen and (max-width: 900px) {
+  .App-header {
+    padding-bottom: 80px;
+  }
 }
 
 .panels {
@@ -186,7 +206,9 @@
   text-align: center;
   transform: rotate(-10deg) skew(-20deg, 10deg);
 }
-.ribbon:before, .ribbon:after {
+
+.ribbon:before,
+.ribbon:after {
   content: "";
   width: 0;
   height: 2em;
@@ -198,18 +220,20 @@
   z-index: -1;
   transform: translateZ(-1em);
 }
+
 .ribbon:before {
   left: -0.5em;
   top: 0.5em;
   border-color: #5c6b5d #475348 #5c6b5d #5c6b5d;
 }
+
 .ribbon:after {
   right: -0.5em;
   top: -0.5em;
   border-color: #5c6b5d #5c6b5d #5c6b5d #475348;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
   .ribbon {
     font-size: 0.8em;
   }

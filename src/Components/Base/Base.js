@@ -9,15 +9,22 @@ import Styles from '../../Styles/StyleFooter';
 
 const Base = (props) => {
   return (
-    <div className='p-relative'>     
-    <div className='App-header overlay'  style={{minHeight: 'calc(100vh - 238px)'}}>
-      <div className='container grid-xl z-index text-center pt-2' style={{overflow: 'hidden'}}>
+    <div className='p-relative background overlay'>     
+        <div className='container grid-xl w-100'>
+          <div className='support'>        
+            <a className='btn btn-panel mr-auto' href='mailto:canvas@horizon.sa.edu.au?subject=Horizon Canvas Feedback'>Give Feedback</a>
+            <a className='btn btn-panel' href='mailto:djohnson@horizon.sa.edu.au?cc=bheffernan@horizon.sa.edu.au&subject=Horizon Canvas Support'>Request Support</a>
+          </div>
+        </div>
+    <div className='App-header'>
+      <div className='container grid-xl z-index text-center' style={{overflow: 'hidden'}}>
+        
       {/* <div className='ribbon z-index'>Released Wed 30th March</div> */}
 
       {/* <img src={release} alt={release} className='img-responsive' style={{marginLeft: 'auto', marginRight: 'auto'}}/> */}
         <div className='columns align-items-center justify-content-center mt-mb-3'>
           
-          <div className='column col-md-10 col-4 col-mx-auto mb-2'>
+          <div className='column col-md-10 col-4 col-mx-auto' style={{marginBottom: '40px'}}>
             <div className='click-box-student'>
                 <Panels title="Canvas Student/Teacher" choice="KIDS" delay="0">
                     <p>Access to Canvas for Horizon Christian School Students & Teachers</p>
@@ -42,7 +49,7 @@ const Base = (props) => {
         </div>           
       </div>      
     </div>  
-    <Styles trans={true}/>  
+    {/* <Styles trans={true}/>   */}
   </div>
   );
 }

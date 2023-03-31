@@ -5,7 +5,7 @@ import Footer from '../Components/Footer/Footer';
 const Layout = (props) => {
   return (
         <div className='p-relative'>
-            <Header detectMob={props.detectMob}/>
+            {/* <Header detectMob={props.detectMob}/> */}
             
            {props.children}
            

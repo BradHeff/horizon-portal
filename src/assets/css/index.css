@@ -1,6 +1,8 @@
 :root {
   --white: #fff;
+  --light: #ebebeb;
   --boxes: #282828a4;
+  --footer: #15284b;
 }
 
 body {
@@ -23,31 +25,36 @@ h1 {
 }
 
 .h-100 {
-  height: 100%!important;
+  height: 100% !important;
 }
 
 .mr-auto {
   margin-right: auto;
 }
+
 .ml-auto {
   margin-left: auto;
 }
+
 .align-items-stretch {
-  align-items: stretch!important;
+  align-items: stretch !important;
 }
+
 .align-items-center {
-  align-items: center!important;
-  
+  align-items: center !important;
+
 }
+
 .justify-content-center {
-  justify-content: center!important;
+  justify-content: center !important;
 }
 
 .bg-white {
   background-color: var(--white);
 }
+
 .bg-light {
-  background-color: #ebebeb;
+  background-color: var(--light);
 }
 
 .bg-boxes {
@@ -55,8 +62,9 @@ h1 {
 }
 
 .bg-footer {
-  background-color: #6e836f;
+  background-color: var(--footer);
 }
+
 .z-index {
   z-index: 9;
 }
@@ -116,30 +124,37 @@ h1 {
 .shape:not([class*="shape-blur"]) {
   overflow: hidden;
 }
+
 .shape-bottom {
   right: 0;
   bottom: 0;
   left: 0;
 }
+
 .shape {
   position: absolute;
   pointer-events: none;
 }
-.shape:not([class*="shape-blur"]) > * {
+
+.shape:not([class*="shape-blur"])>* {
   -webkit-transform: scale(2);
   transform: scale(2);
 }
-.shape-fluid-x > * {
+
+.shape-fluid-x>* {
   width: 100%;
   height: auto;
 }
-.shape-bottom > * {
+
+.shape-bottom>* {
   -webkit-transform-origin: top center;
   transform-origin: top center;
 }
-.shape > * {
+
+.shape>* {
   display: block;
 }
+
 svg {
   overflow: hidden;
   vertical-align: middle;
