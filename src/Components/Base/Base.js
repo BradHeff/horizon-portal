@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 // import PDF from '../../assets/PDF/How to Access Canvas Parent App and Online (Parent Guide).pdf';
 
-import Styles from '../../Styles/StyleFooter';
+// import Styles from '../../Styles/StyleFooter';
 // import release from '../../assets/images/releasedate.png';
 
 const Base = (props) => {
