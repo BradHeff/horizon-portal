@@ -4,7 +4,9 @@
   --boxes: #282828a4;
   --footer: #15284b;
   --title: #3b4351;
-  --buttons: #115740;
+  --hcs_green: #115740;
+  --hcs_gold: #FFC72C;
+  --hcs_yellow: #FCE300;
 }
 
 body {
@@ -65,7 +67,7 @@ h1 {
 }
 
 .bg-footer {
-  background-color: var(--footer);
+  background-color: var(--hcs_green);
 }
 
 .z-index {

@@ -19,7 +19,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: var(--boxes);
+  color: var(--title);
   position: relative;
   padding-top: 10px;
   padding-bottom: 30px;
@@ -73,7 +73,7 @@
 }
 
 .support a {
-  color: var(--buttons);
+  color: var(--hcs_green);
   font-size: 14px;
   cursor: pointer;
   text-decoration: none;
@@ -127,9 +127,9 @@
 .panels .panel-container .btn, .support .btn {
   cursor: pointer;
   font-size: .7rem;
-  line-height: 0.9rem;
+  line-height: 1.0rem;
   outline: none;
-  padding: 0.15rem 0.9rem;
+  padding: 0.2rem 1.0rem;
   text-align: center;
   text-decoration: none;
   transition: background .2s, border .2s, box-shadow .2s, color .2s;
@@ -141,11 +141,11 @@
 }
 
 .btn.btn-panel {
-  height: 28px;
+  height: 30px;
   border-radius: 1px;
-  border: 1px var(--buttons) solid;
+  border: 1px var(--hcs_green) solid;
   background-color: transparent;
-  color: var(--buttons);
+  color: var(--hcs_green);
   /* padding: 0px 15px; */
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -200,8 +200,12 @@
 
 .footer .btn.btn-link {
   font-size: 16px;
+  color: var(--white);
 }
 
+.footer .btn.btn-link:hover {
+  color: var(--hcs_gold);
+}
 
 
 .ribbon {
