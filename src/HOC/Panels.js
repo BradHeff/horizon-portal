@@ -8,7 +8,9 @@ const Panels = (props) => {
         <div className='panels'>
             {props.choice==="KIDS"?<img src={student} alt={student} className='img-responsive'/>:<img src={parent} alt={parent} className='img-responsive'/>}
            <h3 style={{marginTop: '15px'}}>{props.title}</h3>
-           {props.children}
+           <div className='panel-container'>
+            {props.children}
+           </div>
         </div>
   );
 }

@@ -9,7 +9,7 @@ import {Link} from 'react-router-dom';
 
 const Base = (props) => {
   return (
-    <div className='p-relative background overlay'>     
+    <div className='p-relative'>     
         <div className='container grid-xl w-100'>
           <div className='support'>        
             <a className='btn btn-panel mr-auto' href='mailto:canvas@horizon.sa.edu.au?subject=Horizon Canvas Feedback'>Give Feedback</a>
@@ -34,7 +34,7 @@ const Base = (props) => {
             </div>
               
           </div>
-          <div className='column col-md-10 col-4 col-mx-auto'>
+          <div className='column col-md-10 col-4 col-mx-auto' style={{marginBottom: '40px'}}>
           <div className='click-box-student'>
               <Panels title="Canvas Parent" choice="Parents" delay="300">
                   <p>Access to Canvas Parent for Horizon Christian School Parents and Caregivers.</p>
