@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "HelveticaNeue-Heavy";
+  src: url("HelveticaNeue-Heavy.otf") format("opentype");
+}
+@font-face {
+  font-family: "HelveticaNeueItalic";
+  src: url("HelveticaNeueItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "HelveticaNeue-Light";
+  src: url("HelveticaNeue-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "HelveticaNeue-BlackExt";
+  src: url("HelveticaNeue-BlackExt.otf") format("opentype");
+}
+@font-face {
+  font-family: "HelveticaNeue-Black";
+  src: url("HelveticaNeue-Black.otf") format("opentype");
+}
+@font-face {
+  font-family: "HelveticaNeue-Medium";
+  src: url("HelveticaNeue-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "HelveticaNeue-Thin";
+  src: url("HelveticaNeue-Thin.otf") format("opentype");
+}

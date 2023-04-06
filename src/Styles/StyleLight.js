@@ -1,6 +1,6 @@
 import React from "react";
 
-const StyleWhhite = props => {
+const StyleWhhite = (props) => {
   return (
     <div
       className={`shape shape-bottom shape-fluid-x svg-shim z-index ${

@@ -1,0 +1,5 @@
+{ 
+    "extends": "stylelint-config-idiomatic-order",
+    "plugins": ["stylelint-order"],
+    "ignoreFiles": ["**/*.js","**/*.ts","**/*.jsx","**/*.tsx", "public/**/*", "node_modules/**/*","build/**/*"]    
+}
