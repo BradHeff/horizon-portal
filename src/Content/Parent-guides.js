@@ -26,7 +26,7 @@ class ParentGuides extends React.Component {
   }
   render() {
     return (
-      <div className="secs">
+      <div className="secs" style={{marginBottom: '100px'}}>
         <div className="position-relative intro" style={{ paddingTop: "80px" }}>
           <span className="home">
             <Link to="/" className="btn btn-home">
@@ -34,7 +34,7 @@ class ParentGuides extends React.Component {
             </Link>
           </span>
           <div className="container">
-            <div className="text-center d-flex justify-content-center">
+            <div className="text-center d-flex justify-content-center mb-2 mb-lg-4">
               <h1>
                 <img src={Header} alt={Header} className="img-sec" />
               </h1>
