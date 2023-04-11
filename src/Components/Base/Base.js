@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 // import PDF from '../../assets/PDF/How to Access Canvas Parent App and Online (Parent Guide).pdf';
 
-// import Styles from '../../Styles/StyleFooter';
+import Styles from '../../Styles/StyleSweep';
 // import release from '../../assets/images/releasedate.png';
 
 const Base = (props) => {
@@ -40,7 +40,7 @@ const Base = (props) => {
               <div className="click-box-student">
                 <Panels title="School Login" choice="KIDS" delay="0">                  
                   <p className="mb-4">
-                    Access to Canvas for Horizon Christian School Students &
+                    Access to Canvas for Students &
                     Teachers
                   </p>
                   <a
@@ -60,7 +60,7 @@ const Base = (props) => {
               <div className="click-box-student">
                 <Panels title="Parent Login" choice="Parents" delay="300">
                   <p className="mb-4">
-                    Access to Canvas Parent for Horizon Christian School Parents
+                    Access to Canvas Parent for Parents
                     and Caregivers.
                   </p>
                   <div className="d-flex">
@@ -80,6 +80,7 @@ const Base = (props) => {
             </div>
           </div>
         </div>
+        <Styles color1="var(--light2)" color2="var(--light)" height="calc(100vh - 180px)"/> 
       </div>
       {/* <Styles trans={true}/>   */}
     </div>

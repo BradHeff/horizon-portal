@@ -1,10 +1,11 @@
 :root {
   --white: #fff;
-  --light: #ebebeb;
+  --light: rgba(211, 211, 211, 0.6);
+  --light2: rgba(223, 223, 223, 0.4);
   --boxes: #282828a4;
   --footer: #15284b;
   --title: #3b4351;
-  --hcs_green: #115740;
+  --hcs_green: rgb(17, 87, 64);
   --hcs_gold: #ffc72c;
   --hcs_yellow: #fce300;
 }
