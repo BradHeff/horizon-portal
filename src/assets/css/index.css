@@ -90,7 +90,7 @@ h6,
 
 p {
   font-family: "HelveticaNeue-Medium", "HelveticaNeue-Thin", Arial, sans-serif !important;
-  font-size: 14px;
+  font-size: 18px;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
@@ -196,10 +196,17 @@ code {
 
 .section {
   position: relative;
-  padding-top: 80px;
+  padding-top: 0px;
   padding-bottom: 80px;
 }
-
+.section:nth-child(3) {
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+.section:nth-child(8) {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
 .section-xl {
   position: relative;
   padding-top: 120px;
@@ -220,7 +227,7 @@ code {
 }
 
 .overlay::after {
-  background-color: #085d6346;
+  background-color: rgba(236, 236, 236, 0.727);
 }
 
 .overlay-404 {

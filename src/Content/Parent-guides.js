@@ -29,7 +29,7 @@ class ParentGuides extends React.Component {
       <div className="secs" style={{marginBottom: '100px'}}>
         <div className="position-relative intro" style={{ paddingTop: "80px" }}>
           <span className="home">
-            <Link to="/" className="btn btn-home">
+            <Link to="/" className="btn btn-panel">
               {"Home"}
             </Link>
           </span>
@@ -44,7 +44,8 @@ class ParentGuides extends React.Component {
           {/*ROW 1*/}
           <Guides
             trans={true}
-            color="light"
+            bg="bg-white"
+            color="dark"
             title="How to Access"
             titleColor="Canvas Parent"
             title2="The App"

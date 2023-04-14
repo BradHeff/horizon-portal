@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "aos/dist/aos.css";
+import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import "spectre.css/dist/spectre.css";
 // import "spectre.css/dist/spectre-exp.css";

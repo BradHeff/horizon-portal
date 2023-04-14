@@ -15,7 +15,7 @@ const Guides = (props) => {
             </a>
           </div>
           <div className="col-10 col-md-6 text-center">
-            <p>{props.children}</p>
+            <p className="guide-para">{props.children}</p>
           </div>
           <div className="col-8 col-md-6 col-xl-2 mt-lg-0 mt-3">
             <div className="img-border-invert border-image">

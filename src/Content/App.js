@@ -11,7 +11,7 @@ class App extends Component {
     AOS.init({
       duration: 900,
       easing: "ease-in-out-back",
-    });
+    });   
   }
   render() {
     return (

@@ -1,6 +1,6 @@
 .background {
   background-attachment: fixed;
-  background-image: url("../images/Horizon Wallpaper_portal Login.jpg");
+  background-image: url("../images/bg.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,8 +19,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 10px;
-  padding-bottom: 30px;
+  padding-top: 0px;
+  /* padding-bottom: 30px; */
   color: var(--title);
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -58,18 +58,12 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 5px 5px;
+  padding: 20px 5px 5px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-}
-
-@media screen and (max-width: 900px) {
-  .support {
-    padding-top: 80px;
-  }
 }
 
 .mt-mb-3 {
@@ -95,6 +89,24 @@
   font-size: 14px;
   outline: none;
   text-decoration: none;
+}
+
+.home .btn {
+  cursor: pointer;
+  /* padding: 0.2rem 1rem; */
+  font-family: "HelveticaNeue-Light", "HelveticaNeue-Medium";
+  font-size: 0.89rem;
+  font-weight: 600;
+  line-height: 1rem;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  transition: background 0.2s, border 0.2s, box-shadow 0.2s, color 0.2s;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
 }
 
 .footer {
@@ -124,14 +136,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 25px 10px;
   font-size: 12px;
   text-align: center;
 }
 
+@media screen and (max-width: 900px) {
+  .panels {
+    padding: 25px 10px;
+  }
+}
+
 .panels img {
   width: auto;
-  height: 200px;
+  height: 280px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -142,7 +159,7 @@
 @media screen and (max-width: 992px) {
   .panels img {
     width: auto;
-    height: 300px;
+    height: 340px;
   }
 }
 
@@ -156,7 +173,7 @@
 @media screen and (max-width: 576px) {
   .panels img {
     width: auto;
-    height: 300px;
+    height: 280px;
   }
 }
 
@@ -168,8 +185,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: start;
-  padding: 25px 10px;
-  font-size: 12px;
+  padding: 15px 10px;
+  font-size: 18px;
   text-align: center;
 }
 
@@ -186,7 +203,8 @@
   cursor: pointer;
   /* padding: 0.2rem 1rem; */
   font-family: "HelveticaNeue-Light", "HelveticaNeue-Medium";
-  font-size: 0.89rem;
+
+  font-size: 18px;
   font-weight: 600;
   line-height: 1rem;
   outline: none;
@@ -207,6 +225,7 @@
   border-radius: 20px;
   background-color: var(--white);
   color: var(--hcs_green);
+  font-size: 18px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -226,6 +245,7 @@
   border-radius: 5px;
   background-color: var(--white);
   color: var(--hcs_green);
+  font-size: 18px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -344,3 +364,9 @@
     }
   }
 } */
+
+.guide-para {
+  color: var(--title);
+  font-size: 20px;
+  text-align: start;
+}
